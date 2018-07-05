@@ -1,0 +1,23 @@
+{
+  "name": "ts-interface-search",
+  "version": "1.0.0",
+  "description": "Search interface definitions in your project",
+  "main": "index.js",
+  "bin": {
+    "interface-search": "./index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "prettyjson": "^1.2.1",
+    "typescript-json-schema": "^0.25.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
